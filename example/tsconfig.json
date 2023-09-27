@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-custom-image-picker": ["../src/index"],
+      "expo-custom-image-picker/*": ["../src/*"]
+    }
+  }
+}
